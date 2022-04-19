@@ -1,6 +1,7 @@
 {
     "name": "depa/depa-middleware-redirect",
     "description": "Laminas mezzio middleware for redirecting",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "keywords": [
