@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace DepaRedirectMiddleware;
 
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;
+use Dot\AnnotatedServices\Factory\AnnotatedServiceAbstractFactory;
 use Dot\AnnotatedServices\Factory\AnnotatedServiceFactory;
 use DepaRedirectMiddleware\Crawler\RedirectCrawlerCommand;
 use DepaRedirectMiddleware\Middleware\RedirectMiddleware;
@@ -38,6 +39,9 @@ class ConfigProvider
     public function getDependencies() : array
     {
         return [
+            'abstract_factories' => [
+                AnnotatedServiceAbstractFactory::class,
+            ],
             'invokables' => [
             ],
             'factories'  => [
