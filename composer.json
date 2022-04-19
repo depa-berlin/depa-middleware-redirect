@@ -1,0 +1,56 @@
+{
+    "name": "depa/depa-middleware-redirect",
+    "description": "Laminas mezzio middleware for redirecting",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laminas",
+        "mezzio",
+        "redirect",
+        "middleware",
+        "doctrine",
+        "crawler"
+    ],
+    "homepage": "https://www.designpark.de/",
+    "authors": [
+        {
+            "name": "Maurice Schwarz",
+            "email": "schwarz@designpark.de",
+            "role": "Developer"
+        },
+    ],
+    "require": {
+        "php": "^7.4 || ~8.0.0 || ~8.1.0",
+        "composer/package-versions-deprecated": "^1.10.99",
+        "doctrine/doctrine-module": "^4.0",
+        "dotkernel/dot-annotated-services": "^3.1",
+        "dotkernel/dot-controller": "^3.1",
+        "dotkernel/dot-helpers": "^3.1",
+        "laminas/laminas-cli": "^1.4",
+        "mezzio/mezzio": "^3.5.0",
+        "roave/psr-container-doctrine": "^3.1",
+        "spatie/crawler": "^6.0"
+    },
+    "require-dev": {
+        "mezzio/mezzio-tooling": "^1.4.0",
+        "phpspec/prophecy": "^1.10.3",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpunit/phpunit": "^9.4.1",
+        "roave/security-advisories": "dev-master",
+        "filp/whoops": "^2.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DepaRedirectMiddleware\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DepaRedirectMiddlewareTest\\": "test/"
+        }
+    },
+    "scripts": {
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf"
+    }
+}
