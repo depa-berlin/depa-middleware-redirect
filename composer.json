@@ -29,7 +29,7 @@
         "dotkernel/dot-helpers": "^3.1",
         "laminas/laminas-cli": "^1.4",
         "mezzio/mezzio": "^3.5.0",
-        "roave/psr-container-doctrine": "^3.1",
+        "roave/psr-container-doctrine": "^2.1.0 || ^3.1",
         "spatie/crawler": "^6.0",
         "laminas/laminas-diactoros": "^2.9"
     },
