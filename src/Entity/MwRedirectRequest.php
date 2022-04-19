@@ -35,7 +35,7 @@ class MwRedirectRequest
     /**
      * Response
      *
-     * @ORM\ManyToOne(targetEntity="Redirect\Entity\MwRedirectResponse")
+     * @ORM\ManyToOne(targetEntity="DepaRedirectMiddleware\Entity\MwRedirectResponse")
      * @ORM\JoinColumns({
      *   @ORM\JoinColumn(name="mw_redirect_response_id", referencedColumnName="id")
      * })

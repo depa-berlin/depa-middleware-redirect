@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Class MwRedirectResponseStatuscode
  * @package Redirect\Entity
- * @ORM\Entity (repositoryClass="Redirect\Repository\MwRedirectResponseStatuscodeRepository")
+ * @ORM\Entity (repositoryClass="DepaRedirectMiddleware\Repository\MwRedirectResponseStatuscodeRepository")
  * @ORM\Table(name="mw_redirect_response_statuscode")
  * @ORM\HasLifecycleCallbacks
  */

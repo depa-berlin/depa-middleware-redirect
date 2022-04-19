@@ -26,7 +26,7 @@ class MwRedirectRequestReferer
     protected string $refererUrl;
 
     /**
-     * @ORM\ManyToMany(targetEntity="Redirect\Entity\MwRedirectRequest", mappedBy="requestOrigins")
+     * @ORM\ManyToMany(targetEntity="DepaRedirectMiddleware\Entity\MwRedirectRequest", mappedBy="requestOrigins")
      * @ORM\JoinTable(name="mw_redirect_request_has_mw_redirect_request_referer",
      *      joinColumns={@ORM\JoinColumn(name="mw_redirect_request_referer_id", referencedColumnName="id")},
      *      inverseJoinColumns={@ORM\JoinColumn(name="mw_redirect_request_id", referencedColumnName="id")}

@@ -58,7 +58,7 @@ class ConfigProvider
             'driver' => [
                 'orm_default' => [
                     'drivers' => [
-                        'Redirect\Entity' => 'RedirectEntities',
+                        'DepaRedirectMiddleware\Entity' => 'RedirectEntities',
                     ]
                 ],
                 'RedirectEntities' => [
