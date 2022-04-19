@@ -48,6 +48,8 @@
             "DepaRedirectMiddlewareTest\\": "test/"
         }
     },
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
     "scripts": {
         "cs-check": "phpcs",
         "cs-fix": "phpcbf"
