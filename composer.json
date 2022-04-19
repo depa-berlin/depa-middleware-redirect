@@ -32,12 +32,10 @@
         "spatie/crawler": "^6.0"
     },
     "require-dev": {
-        "mezzio/mezzio-tooling": "^1.4.0",
         "phpspec/prophecy": "^1.10.3",
         "phpspec/prophecy-phpunit": "^2.0",
         "phpunit/phpunit": "^9.4.1",
-        "roave/security-advisories": "dev-master",
-        "filp/whoops": "^2.7.1"
+        "roave/security-advisories": "dev-master"
     },
     "autoload": {
         "psr-4": {
