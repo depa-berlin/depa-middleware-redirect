@@ -3,7 +3,7 @@
     "description": "Laminas mezzio middleware for redirecting",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "laminas",
         "mezzio",
