@@ -21,7 +21,7 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ~8.0.0 || ~8.1.0",
+        "php": "^7.4 || ~8.0.0 || ~8.1.0 || ~8.2.0",
         "composer/package-versions-deprecated": "^1.10.99",
         "doctrine/doctrine-module": "^5.3.0",
         "dotkernel/dot-annotated-services": "^3.1",
